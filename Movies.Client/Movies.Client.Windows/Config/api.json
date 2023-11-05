@@ -1,0 +1,8 @@
+{
+  "api_add_movie_endpoint": "{0}/Movies",
+  "api_base_url": "https://localhost:32768",
+  "api_delete_movie_endpoint": "{0}/Movies/{1}",
+  "api_get_all_movies_endpoint": "{0}/Movies",
+  "api_get_movie_by_id_endpoint": "{0}/Movies/{1}",
+  "api_update_movie_endpoint": "{0}/Movies/{1}"
+}
