@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\Movies.Database\Movies.Database.csproj" />
     <ProjectReference Include="..\..\..\Movies.Shared\Movies.Shared.csproj" />
   </ItemGroup>
 

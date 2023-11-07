@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using Movies.API;
+using Movies.Database;
 using Movies.Services.Movies;
 
 namespace Movies.API
@@ -18,6 +21,8 @@ namespace Movies.API
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            builder.Services.AddDbContextFactory<DataContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("db")));
 
             var app = builder.Build();
 

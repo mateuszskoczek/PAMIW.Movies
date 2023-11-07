@@ -3,23 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Shared", "Movies.Shared\Movies.Shared.csproj", "{FE29EF6B-0B36-4ED3-962B-531BCD980E45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movies.Shared", "Movies.Shared\Movies.Shared.csproj", "{FE29EF6B-0B36-4ED3-962B-531BCD980E45}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Movies.Client", "Movies.Client", "{33829D00-4BB2-46C8-9284-623B8810A73A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Client.Windows", "Movies.Client\Movies.Client.Windows\Movies.Client.Windows.csproj", "{786357FA-8F3A-4E41-A579-E9B5037EA5BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movies.Client.Windows", "Movies.Client\Movies.Client.Windows\Movies.Client.Windows.csproj", "{786357FA-8F3A-4E41-A579-E9B5037EA5BC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Movies.API", "Movies.API", "{3BF94046-FF41-4823-B08B-706127878BF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.API", "Movies.API\Movies.API\Movies.API.csproj", "{A851E2D5-19BA-4F96-AAFE-22D9D439DB45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movies.API", "Movies.API\Movies.API\Movies.API.csproj", "{A851E2D5-19BA-4F96-AAFE-22D9D439DB45}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Movies.Services", "Movies.Services", "{71C468FE-C10E-4ED9-988C-E29F5FD1B546}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Services.Movies", "Movies.API\Movies.Services\Movies.Services.Movies\Movies.Services.Movies.csproj", "{C1F4F95D-A05F-475E-96B4-813E46F1DE8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movies.Services.Movies", "Movies.API\Movies.Services\Movies.Services.Movies\Movies.Services.Movies.csproj", "{C1F4F95D-A05F-475E-96B4-813E46F1DE8E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Movies.Client.Services", "Movies.Client.Services", "{FAA76911-E6B1-4AD1-8B4C-086DCA6027A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Client.Services.Movies", "Movies.Client\Movies.Client.Services\Movies.Client.Services.Movies\Movies.Client.Services.Movies.csproj", "{35F04D23-F43D-4C0D-8EC0-C8F9C64CBF2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movies.Client.Services.Movies", "Movies.Client\Movies.Client.Services\Movies.Client.Services.Movies\Movies.Client.Services.Movies.csproj", "{35F04D23-F43D-4C0D-8EC0-C8F9C64CBF2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Database", "Movies.Database\Movies.Database.csproj", "{0AC6B3DD-64A4-4D64-B2EA-FD0614F4AC51}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{35F04D23-F43D-4C0D-8EC0-C8F9C64CBF2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35F04D23-F43D-4C0D-8EC0-C8F9C64CBF2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35F04D23-F43D-4C0D-8EC0-C8F9C64CBF2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AC6B3DD-64A4-4D64-B2EA-FD0614F4AC51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AC6B3DD-64A4-4D64-B2EA-FD0614F4AC51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AC6B3DD-64A4-4D64-B2EA-FD0614F4AC51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AC6B3DD-64A4-4D64-B2EA-FD0614F4AC51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
